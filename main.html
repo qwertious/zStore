@@ -7,6 +7,12 @@
     <canvas id="canvas1" width=1024 height=2048 style="background: #ffc040">
     </canvas>
     <script>
+      canvas1 = getElementById("canvas1");
+      ctx = canvas.getContext("2d");
+      function update() {
+        canvas1.width=screen.width;
+        canvas1.height=screen.height;
+      }
     </script>
   </body>
 </html>
